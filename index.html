@@ -1,113 +1,123 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>🇭🇰 香港沙田賽馬直播｜CM2 Bet Horse Racing</title>
+<meta charset="UTF-8">
+<title>🇭🇰跑馬地賽馬直播中🔴 SHA TIN HORSE RACING 🔴LIVE NOW</title>
 
-  <!-- 自動更新預覽圖：在圖片網址後加上時間戳避免快取 -->
-  <script>
-    const timestamp = new Date().getTime();
-    document.write(`
-      <meta property="og:image" content="https://89092702a-code.github.io/cm2-live/photo_2025-10-19_15-35-33.jpg?${timestamp}">
-    `);
-  </script>
+<!-- 防快取 OG 圖 -->
+<script>
+const timestamp = new Date().getTime();
+document.write(`
+<meta property="og:image" content="https://horseracingallin1.github.io/horseracinglive/livebanner.jpg?${timestamp}">
+`);
+</script>
 
-  <!-- Facebook / Open Graph meta -->
-  <meta property="og:title" content="🇭🇰 香港沙田賽馬直播 H.K Shatin Horse Racing Live">
-  <meta property="og:description" content="立即進入 Telegram 觀看 CM2 賽馬直播，掌握賽事實況與投注資訊！">
-  <meta property="og:url" content="https://89092702a-code.github.io/cm2-live/">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+<!-- Open Graph -->
+<meta property="og:title" content="🇭🇰跑馬地賽馬直播中🔴 SHA TIN HORSE RACING 🔴LIVE NOW">
+<meta property="og:description" content="立即進入 Telegram 觀看賽馬直播，即時賽況與分析！">
+<meta property="og:url" content="https://horseracingallin1.github.io/horseracinglive/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 
-  <style>
-    body {
-      font-family: "Noto Sans TC", sans-serif;
-      text-align: center;
-      background-color: #000;
-      color: #fff;
-      margin: 0;
-      padding: 40px 10px;
-    }
-    h1 {
-      color: #ffd700;
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-    }
-    img {
-      width: 90%;
-      max-width: 650px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(255,255,255,0.2);
-      margin-top: 20px;
-    }
-    #countdown {
-      font-size: 1.4rem;
-      margin-top: 20px;
-      color: #00ffcc;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 30px;
-      font-size: 1.2rem;
-      background-color: #ff4444;
-      color: #fff;
-      border-radius: 10px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-    a.button:hover {
-      background-color: #cc0000;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      opacity: 0.6;
-    }
-  </style>
+<style>
+body{
+font-family:"Noto Sans TC",sans-serif;
+text-align:center;
+background:#000;
+color:#fff;
+margin:0;
+padding:40px 10px;
+}
+
+h1{
+font-size:1.9rem;
+margin-bottom:6px;
+color:#ffd700;
+}
+
+.subtitle{
+font-size:1.1rem;
+font-weight:bold;
+color:#ff4444;
+letter-spacing:2px;
+margin-bottom:16px;
+}
+
+.live-dot{
+ display:inline-block;
+ width:12px;
+ height:12px;
+ background:red;
+ border-radius:50%;
+ margin:0 6px;
+ animation:blink 1s infinite;
+}
+
+.live-text{
+ color:#ff3333;
+ font-weight:bold;
+ letter-spacing:1px;
+}
+
+@keyframes blink{
+0%{opacity:1;}
+50%{opacity:0.2;}
+100%{opacity:1;}
+}
+
+img{
+ width:95%;
+ max-width:750px;
+ border-radius:14px;
+ box-shadow:0 0 25px rgba(255,255,255,0.25);
+ transition:transform .3s ease, box-shadow .3s ease;
+}
+
+img:hover{
+ transform:scale(1.02);
+ box-shadow:0 0 40px rgba(255,255,255,0.4);
+}
+
+footer{
+ margin-top:40px;
+ font-size:.9rem;
+ opacity:.6;
+}
+</style>
 </head>
+
 <body>
-  <h1>🎥 CM2 香港沙田賽馬直播</h1>
-  <p>立即加入 Telegram，觀看現場賽馬與即時分析！</p>
 
-  <img src="photo_2025-10-19_15-35-33.jpg" alt="香港沙田賽馬直播">
+<h1>
+🎥 跑馬地賽馬直播中
+<span class="live-dot"></span>
+<span class="live-text">LIVE</span>
+</h1>
 
-  <!-- 倒數計時顯示區 -->
-  <div id="countdown">⏳ 計算中...</div>
+<div class="subtitle">
+SHA TIN HORSE RACING
+</div>
 
-  <p>
-    <a class="button" href="https://t.me/cm2bethorseracing?livestream" target="_blank">
-      👉 前往 Telegram 直播
-    </a>
-  </p>
+<p>立即加入 Telegram，觀看現場賽馬與即時分析！</p>
 
-  <footer>© 2025 CM2 Live Horse Racing</footer>
+<a href="https://t.me/horseracingallin1?livestream" target="_blank">
+<img src="livebanner.jpg" alt="Horse Racing Live">
+</a>
 
-  <script>
-    // 🔹 設定下一場直播的時間（可自行修改）
-    const nextRace = new Date("2025-10-19T12:45:00+08:00"); // 香港時間12:45開跑
+<footer>© 2026 Horse Racing Live · 赛马畀你知</footer>
 
-    const countdownEl = document.getElementById("countdown");
+<script>
+const titles=[
+"🇭🇰跑馬地賽馬直播中🔴 SHA TIN HORSE RACING 🔴LIVE NOW",
+"🏇 正在直播｜點擊進入 Telegram"
+];
+let i=0;
+setInterval(()=>{
+document.title=titles[i%titles.length];
+i++;
+},1200);
+</script>
 
-    function updateCountdown() {
-      const now = new Date();
-      const diff = nextRace - now;
-
-      if (diff <= 0) {
-        countdownEl.textContent = "🏇 直播中！快點進入 Telegram 👉";
-        return;
-      }
-
-      const hours = Math.floor(diff / 1000 / 60 / 60);
-      const mins = Math.floor((diff / 1000 / 60) % 60);
-      const secs = Math.floor((diff / 1000) % 60);
-
-      countdownEl.textContent = `⏱️ 距離開賽還有：${hours}小時 ${mins}分 ${secs}秒`;
-    }
-
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-  </script>
 </body>
 </html>
 
